@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:id="@+id/yonhapnews_layout">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:src="@mipmap/icon"
+        android:contentDescription="icon"
+        android:id="@+id/image" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="연합뉴스TV"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:paddingTop="4dp"
+            android:id="@+id/yonhanpnews_title" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="This is a test."
+            android:layout_below="@+id/yonhanpnews_title"
+            android:layout_alignLeft="@+id/yonhanpnews_title"
+            android:layout_alignStart="@+id/yonhanpnews_title"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="2dp"
+            android:id="@+id/yonhapnews_content" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -6,4 +6,8 @@
         <item name="android:windowCloseOnTouchOutside">true</item>
         <item name="android:backgroundDimEnabled">false</item>
     </style>
+
+    <style name="TransparentTheme" parent="@android:style/Theme.Panel">
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
 </resources>
